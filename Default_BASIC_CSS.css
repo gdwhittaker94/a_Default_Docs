@@ -46,9 +46,6 @@ button {
     /* Remove the margin (Firefox, Safari) */
     text-transform: none;
     /*Remove the inheritance of text transform (Edge, Firefox, IE)*/
-    outline: none;
-    border: none;
-    /*Remove default outline and border for these buttons*/
     -webkit-appearance: button;
     appearance: button;
     /*Correct the inability to style clickable types (IOS, Safari)*/

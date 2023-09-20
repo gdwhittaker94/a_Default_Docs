@@ -119,13 +119,6 @@ transform: translateY(-0.15rem);
 }
 
 button,
-input[type="submit"] {
-outline: none;
-border: none;
-/*Remove default outline and border for these buttons*/
-}
-
-button,
 [type="button"],
 [type="reset"],
 [type="submit"] {
@@ -149,12 +142,6 @@ button:-moz-focusring,
 [type="submit"]:-moz-focusring {
 outline: 1px dotted ButtonText;
 /*Restore the focus styles unset by the previous rule*/
-}
-
-input,
-textarea {
-outline: none;
-/*Remove default outline for these elements, allows custom styling*/
 }
 
 fieldset {
