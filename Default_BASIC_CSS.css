@@ -12,7 +12,11 @@ font-size: 10px;
 /*10px = 1em -> pixel size/10 = #em (16px=1.6em)*/
 box-sizing: border-box;
 /*The full area/size of an element`s box is measured by its total height and width, not just the content section. The different box sections adjust to the defined box size */
+}
+
+body {
 min-height: 100vh;
+/* Body stretches full height of screen */
 }
 
 img {
