@@ -12,6 +12,7 @@ font-size: 10px;
 /*10px = 1em -> pixel size/10 = #em (16px=1.6em)*/
 box-sizing: border-box;
 /*The full area/size of an element`s box is measured by its total height and width, not just the content section. The different box sections adjust to the defined box size */
+min-height: 100vh;
 }
 
 img {
@@ -38,17 +39,17 @@ list-style: none;
 }
 
 button {
-    font-family: inherit;
-    font-size: 100%;
-    line-height: 1.15;
-    /* Change the font styles (all browsers)*/
-    margin: 0;
-    /* Remove the margin (Firefox, Safari) */
-    text-transform: none;
-    /*Remove the inheritance of text transform (Edge, Firefox, IE)*/
-    -webkit-appearance: button;
-    appearance: button;
-    /*Correct the inability to style clickable types (IOS, Safari)*/
+font-family: inherit;
+font-size: 100%;
+line-height: 1.15;
+/* Change the font styles (all browsers)*/
+margin: 0;
+/* Remove the margin (Firefox, Safari) */
+text-transform: none;
+/*Remove the inheritance of text transform (Edge, Firefox, IE)*/
+-webkit-appearance: button;
+appearance: button;
+/*Correct the inability to style clickable types (IOS, Safari)*/
 }
 
 button:hover,
