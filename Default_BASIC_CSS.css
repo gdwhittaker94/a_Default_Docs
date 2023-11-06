@@ -68,6 +68,7 @@ transform: translateY(-0.15rem);
 [type="submit"] {
 -webkit-appearance: button;
 appearance: button;
+cursor: pointer;
 /*Correct the inability to style clickable types (IOS, Safari)*/
 }
 /**===========================CUSTOM-STYLES==============================*/
