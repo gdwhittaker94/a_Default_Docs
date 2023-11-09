@@ -1,3 +1,3 @@
-function log(input) {
-	console.log(input);
-}
+	function log(input) {
+		console.log(input);
+	}
