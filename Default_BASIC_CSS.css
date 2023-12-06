@@ -1,79 +1,79 @@
 /**CSS Normalisation (https://necolas.github.io/normalize.css/) */
 
 html {
-  height: 100%;
-  /* Set document height to full height of screen */
-  }
+	height: 100%;
+	/* Set document height to full height of screen */
+}
 
 *,
 body,
 *::before,
 *::after {
-padding: 0;
-margin: 0;
-border: 0;
-/*Remove the margin, padding and border of all elements (all browsers)*/
-font-size: 10px;
-/*10px = 1em -> pixel size/10 = #em (16px=1.6em)*/
-box-sizing: border-box;
-/*The full area/size of an element`s box is measured by its total height and width, not just the content section. The different box sections adjust to the defined box size */
+	padding: 0;
+	margin: 0;
+	border: 0;
+	/*Remove the margin, padding and border of all elements (all browsers)*/
+	font-size: 10px;
+	/*10px = 1em -> pixel size/10 = #em (16px=1.6em)*/
+	box-sizing: border-box;
+	/*The full area/size of an element`s box is measured by its total height and width, not just the content section. The different box sections adjust to the defined box size */
 }
 
 body {
-min-height: 100%;
-/* Body element's height is min. 100% of its parent (html) element */
+	min-height: 100%;
+	/* Body element's height is min. 100% of its parent (html) element */
 }
 
 img {
-border-style: none;
-/*Remove the border on images inside links (IE10)*/
-max-inline-size: 100%;
-/*Make image responsive but without allowing it to outgrow its original size*/
-display: block;
-/*Removes the small gap that appears under images */
+	border-style: none;
+	/*Remove the border on images inside links (IE10)*/
+	max-inline-size: 100%;
+	/*Make image responsive but without allowing it to outgrow its original size*/
+	display: block;
+	/*Removes the small gap that appears under images */
 }
 
 a,
 li,
 :link,
 :visited {
-text-decoration: none;
-/*Remove default link underline styling*/
+	text-decoration: none;
+	/*Remove default link underline styling*/
 }
 
 ul,
 ol {
-list-style: none;
-/*List markers are not commonly needed*/
+	list-style: none;
+	/*List markers are not commonly needed*/
 }
 
 button {
-font-family: inherit;
-font-size: 100%;
-line-height: 1.15;
-/* Change the font styles (all browsers)*/
-margin: 0;
-/* Remove the margin (Firefox, Safari) */
-text-transform: none;
-/*Remove the inheritance of text transform (Edge, Firefox, IE)*/
--webkit-appearance: button;
-appearance: button;
-/*Correct the inability to style clickable types (IOS, Safari)*/
+	font-family: inherit;
+	font-size: 100%;
+	line-height: 1.15;
+	/* Change the font styles (all browsers)*/
+	margin: 0;
+	/* Remove the margin (Firefox, Safari) */
+	text-transform: none;
+	/*Remove the inheritance of text transform (Edge, Firefox, IE)*/
+	-webkit-appearance: button;
+	appearance: button;
+	/*Correct the inability to style clickable types (IOS, Safari)*/
 }
 
 button:hover,
-input[type="submit"] {
-cursor: pointer;
-transform: translateY(-0.15rem);
-/*Buttons on hover use the pointer cursor and have a small animation*/
+input[type='submit'] {
+	cursor: pointer;
+	transform: translateY(-0.15rem);
+	/*Buttons on hover use the pointer cursor and have a small animation*/
 }
 
-[type="button"],
-[type="reset"],
-[type="submit"] {
--webkit-appearance: button;
-appearance: button;
-cursor: pointer;
-/*Correct the inability to style clickable types (IOS, Safari)*/
+[type='button'],
+[type='reset'],
+[type='submit'] {
+	-webkit-appearance: button;
+	appearance: button;
+	cursor: pointer;
+	/*Correct the inability to style clickable types (IOS, Safari)*/
 }
 /**===========================CUSTOM-STYLES==============================*/
