@@ -1,5 +1,10 @@
 /**CSS Normalisation (https://necolas.github.io/normalize.css/) */
 
+html {
+  height: 100%;
+  /* Set document height to full height of screen */
+  }
+
 *,
 body,
 *::before,
@@ -15,8 +20,8 @@ box-sizing: border-box;
 }
 
 body {
-min-height: 100vh;
-/* Body stretches full height of screen */
+min-height: 100%;
+/* Body element's height is min. 100% of its parent (html) element */
 }
 
 img {
